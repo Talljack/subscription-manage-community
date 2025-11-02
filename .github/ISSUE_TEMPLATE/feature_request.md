@@ -1,39 +1,39 @@
 ---
-name: 功能建议 / Feature Request
-about: 建议新功能或改进 / Suggest a new feature or improvement
-title: '[功能] 简短描述 / Brief description'
+name: Feature Request
+about: Suggest a new feature or improvement
+title: '[Feature] Brief description'
 labels: enhancement
 assignees: ''
 ---
 
-## 🎯 问题描述 / Problem Description
+## 🎯 Problem Description
 
-<!-- 你想解决什么问题？这个功能是为了什么场景？ -->
+<!-- What problem are you trying to solve? What's the use case? -->
 
-## 💡 解决方案 / Proposed Solution
+## 💡 Proposed Solution
 
-<!-- 详细描述你建议的功能或改进 -->
+<!-- Describe your suggested feature or improvement in detail -->
 
-## 🌟 为什么需要这个功能 / Why This Feature
+## 🌟 Why This Feature
 
-<!-- 说明这个功能的价值：
-- 能帮助多少用户？
-- 解决什么痛点？
-- 有什么替代方案吗？
+<!-- Explain the value of this feature:
+- How many users would it help?
+- What pain point does it solve?
+- Are there any alternatives?
 -->
 
-## 📊 预期效果 / Expected Impact
+## 📊 Expected Impact
 
-<!-- 如果实现了这个功能，预期会带来什么改变？ -->
+<!-- What changes would this feature bring if implemented? -->
 
-## 🎨 界面示意 / UI Mockup (可选 / Optional)
+## 🎨 UI Mockup (Optional)
 
-<!-- 如果有界面设计想法，可以添加草图或描述 -->
+<!-- If you have UI design ideas, add sketches or descriptions -->
 
-## 🔗 参考示例 / Examples (可选 / Optional)
+## 🔗 Examples (Optional)
 
-<!-- 其他应用中有类似功能吗？可以提供链接或描述 -->
+<!-- Do other apps have similar features? Provide links or descriptions -->
 
-## 📝 附加信息 / Additional Context
+## 📝 Additional Context
 
-<!-- 其他相关信息 -->
+<!-- Any other relevant information -->

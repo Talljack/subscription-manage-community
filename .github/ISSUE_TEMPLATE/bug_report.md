@@ -1,45 +1,45 @@
 ---
-name: Bug 报告 / Bug Report
-about: 报告应用的问题或错误 / Report an issue with the app
-title: '[Bug] 简短描述问题 / Brief description'
+name: Bug Report
+about: Report an issue with the app
+title: '[Bug] Brief description'
 labels: bug
 assignees: ''
 ---
 
-## 🐛 问题描述 / Bug Description
+## 🐛 Bug Description
 
-<!-- 清晰简洁地描述遇到的问题 -->
+<!-- Clearly and concisely describe the problem you encountered -->
 
-## 📋 复现步骤 / Steps to Reproduce
+## 📋 Steps to Reproduce
 
 1.
 2.
 3.
 4.
 
-## ✅ 预期行为 / Expected Behavior
+## ✅ Expected Behavior
 
-<!-- 你期望发生什么？ -->
+<!-- What did you expect to happen? -->
 
-## ❌ 实际行为 / Actual Behavior
+## ❌ Actual Behavior
 
-<!-- 实际发生了什么？ -->
+<!-- What actually happened? -->
 
-## 📸 截图 / Screenshots
+## 📸 Screenshots
 
-<!-- 如果可能，请添加截图帮助说明问题 -->
+<!-- If possible, add screenshots to help explain the problem -->
 
-## 🖥️ 环境信息 / Environment
+## 🖥️ Environment
 
-- **设备 / Device**: <!-- 例如: iPhone 14, MacBook Pro, Windows PC -->
-- **操作系统 / OS**: <!-- 例如: iOS 17, macOS 14, Windows 11 -->
-- **浏览器 / Browser**: <!-- 例如: Chrome 120, Safari 17 -->
-- **应用版本 / App Version**: <!-- 如果知道的话 -->
+- **Device**: <!-- e.g., iPhone 14, MacBook Pro, Windows PC -->
+- **OS**: <!-- e.g., iOS 17, macOS 14, Windows 11 -->
+- **Browser**: <!-- e.g., Chrome 120, Safari 17 -->
+- **App Version**: <!-- If known -->
 
-## 📝 附加信息 / Additional Context
+## 📝 Additional Context
 
-<!-- 其他有助于解决问题的信息 -->
+<!-- Any other information that might help resolve the issue -->
 
-## 🔍 可能的解决方案 / Possible Solution (可选 / Optional)
+## 🔍 Possible Solution (Optional)
 
-<!-- 如果你有解决方案的想法，请分享 -->
+<!-- If you have ideas for a solution, please share -->

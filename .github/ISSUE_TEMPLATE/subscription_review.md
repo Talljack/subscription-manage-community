@@ -1,92 +1,92 @@
 ---
-name: 订阅服务评价 / Subscription Review
-about: 分享你的订阅服务使用体验 / Share your subscription service experience
-title: '[评价] 服务名称 / [Review] Service Name'
+name: Subscription Review
+about: Share your subscription service experience
+title: '[Review] Service Name'
 labels: review, subscription
 assignees: ''
 ---
 
-## 📦 服务信息 / Service Information
+## 📦 Service Information
 
-**服务名称 / Service Name**:
-**分类 / Category**: <!-- 流媒体/软件工具/云存储/音乐平台/设计工具/健身运动/学习教育/游戏娱乐/其他 -->
-**官网 / Website**:
-**订阅价格 / Price**:
-**订阅周期 / Billing Cycle**: <!-- 月付/年付/季付 -->
-**订阅日期 / Subscribed Since**: <!-- 例如: 2024-01 -->
+**Service Name**:
+**Category**: <!-- Streaming/Software/Cloud Storage/Music/Design/Fitness/Education/Gaming/Other -->
+**Website**:
+**Price**:
+**Billing Cycle**: <!-- Monthly/Yearly/Quarterly -->
+**Subscribed Since**: <!-- e.g., 2024-01 -->
 
-## ⭐ 评分 / Rating
+## ⭐ Rating
 
-**总体评分 / Overall**: ⭐⭐⭐⭐⭐ ( /5)
+**Overall Rating**: ⭐⭐⭐⭐⭐ ( /5)
 
-- **价格性价比 / Value for Money**: /5
-- **功能体验 / Features**: /5
-- **用户体验 / UX**: /5
-- **客户服务 / Support**: /5
+- **Value for Money**: /5
+- **Features**: /5
+- **User Experience**: /5
+- **Customer Support**: /5
 
-## 💭 使用体验 / Experience
+## 💭 Experience
 
-<!-- 分享你的详细使用感受，建议包括：
-- 为什么订阅这个服务
-- 主要用于什么场景
-- 使用频率如何
-- 实际体验是否符合预期
+<!-- Share your detailed experience, including:
+- Why you subscribed to this service
+- Primary use cases
+- Frequency of use
+- Whether it met your expectations
 -->
 
-## 👍 优点 / Pros
+## 👍 Pros
 
 -
 -
 -
 
-## 👎 缺点 / Cons
+## 👎 Cons
 
 -
 -
 -
 
-## 💡 推荐理由 / Recommendation
+## 💡 Recommendation
 
-**推荐指数 / Recommendation**: /10
+**Recommendation Score**: /10
 
-**适合人群 / Target Audience**:
-<!-- 你会推荐给哪类用户？例如：
-- 学生
-- 设计师
-- 家庭用户
-- 重度使用者
+**Target Audience**:
+<!-- Who would you recommend this to? For example:
+- Students
+- Designers
+- Families
+- Power users
 -->
 
-**购买建议 / Purchase Tips**:
-<!-- 有什么购买建议？例如：
-- 等促销时购买
-- 使用年付更划算
-- 建议先试用
+**Purchase Tips**:
+<!-- Any advice for potential subscribers? For example:
+- Wait for sales
+- Annual plans are better value
+- Try the free trial first
 -->
 
-## 💰 优惠信息 / Deals (可选 / Optional)
+## 💰 Deals (Optional)
 
-**优惠码 / Promo Code**:
-**优惠内容 / Deal**:
-**有效期 / Expires**:
-**使用条件 / Conditions**:
+**Promo Code**:
+**Deal**:
+**Expires**:
+**Conditions**:
 
-## 🔗 其他信息 / Additional Info
+## 🔗 Additional Info
 
-**取消难度 / Cancellation Difficulty**: <!-- 容易/一般/困难 -->
-**是否支持退款 / Refund Policy**: <!-- 是/否，说明条件 -->
-**家庭共享 / Family Sharing**: <!-- 支持/不支持 -->
+**Cancellation Difficulty**: <!-- Easy/Medium/Hard -->
+**Refund Policy**: <!-- Yes/No, conditions -->
+**Family Sharing**: <!-- Supported/Not supported -->
 
-## 🏷️ 标签 / Tags
+## 🏷️ Tags
 
-<!-- 添加相关标签，帮助其他用户找到这条评价
-例如: #流媒体 #设计工具 #值得订阅 #学生优惠 #性价比高
+<!-- Add relevant tags to help others find this review
+e.g., #streaming #design-tools #worth-it #student-discount #great-value
 -->
 
 ---
 
-**注意 / Note**:
-- ✅ 请提供真实、客观的评价
-- ✅ 避免使用极端或情绪化的语言
-- ✅ 尊重不同的观点和体验
-- ❌ 不要发布虚假信息或恶意攻击
+**Note**:
+- ✅ Please provide honest, objective reviews
+- ✅ Avoid extreme or emotional language
+- ✅ Respect different viewpoints and experiences
+- ❌ Don't post false information or malicious attacks

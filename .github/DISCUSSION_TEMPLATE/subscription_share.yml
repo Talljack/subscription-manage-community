@@ -1,122 +1,122 @@
-name: 订阅分享 / Subscription Share
+name: Subscription Share
 labels: [subscription, share]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 📝 分享订阅服务体验
-        感谢分享！你的经验可以帮助其他用户做出更好的选择。
+        ## 📝 Share Your Subscription Experience
+        Thank you for sharing! Your experience can help other users make better choices.
 
   - type: input
     id: service-name
     attributes:
-      label: 服务名称 / Service Name
-      description: 你要分享的订阅服务名称
-      placeholder: 例如：Netflix, Spotify, ChatGPT Plus
+      label: Service Name
+      description: Name of the subscription service you want to share
+      placeholder: e.g., Netflix, Spotify, ChatGPT Plus
     validations:
       required: true
 
   - type: dropdown
     id: category
     attributes:
-      label: 分类 / Category
-      description: 选择服务分类
+      label: Category
+      description: Select service category
       options:
-        - 流媒体服务 / Streaming
-        - 软件工具 / Software
-        - 云存储 / Cloud Storage
-        - 音乐平台 / Music
-        - 设计工具 / Design
-        - 健身运动 / Fitness
-        - 学习教育 / Education
-        - 游戏娱乐 / Gaming
-        - 其他 / Other
+        - Streaming
+        - Software
+        - Cloud Storage
+        - Music
+        - Design
+        - Fitness
+        - Education
+        - Gaming
+        - Other
     validations:
       required: true
 
   - type: input
     id: price
     attributes:
-      label: 订阅价格 / Price
-      description: 请注明货币和周期
-      placeholder: 例如：$15.49/月, ¥68/月
+      label: Price
+      description: Please specify currency and billing cycle
+      placeholder: e.g., $15.49/month, ¥68/month
     validations:
       required: true
 
   - type: dropdown
     id: rating
     attributes:
-      label: 总体评分 / Overall Rating
-      description: 你对这个服务的总体评分
+      label: Overall Rating
+      description: Your overall rating for this service
       options:
-        - '⭐⭐⭐⭐⭐ (5/5) - 非常推荐'
-        - '⭐⭐⭐⭐ (4/5) - 推荐'
-        - '⭐⭐⭐ (3/5) - 一般'
-        - '⭐⭐ (2/5) - 不推荐'
-        - '⭐ (1/5) - 非常不推荐'
+        - '⭐⭐⭐⭐⭐ (5/5) - Highly Recommended'
+        - '⭐⭐⭐⭐ (4/5) - Recommended'
+        - '⭐⭐⭐ (3/5) - Average'
+        - '⭐⭐ (2/5) - Not Recommended'
+        - '⭐ (1/5) - Strongly Not Recommended'
     validations:
       required: true
 
   - type: textarea
     id: experience
     attributes:
-      label: 使用体验 / Experience
-      description: 分享你的详细使用感受
+      label: Experience
+      description: Share your detailed experience
       placeholder: |
-        - 为什么订阅这个服务
-        - 主要用于什么场景
-        - 使用频率如何
-        - 实际体验是否符合预期
+        - Why you subscribed to this service
+        - Primary use cases
+        - Frequency of use
+        - Whether it met your expectations
     validations:
       required: true
 
   - type: textarea
     id: pros
     attributes:
-      label: 优点 / Pros
-      description: 这个服务的优点
+      label: Pros
+      description: Advantages of this service
       placeholder: |
-        - 优点1
-        - 优点2
-        - 优点3
+        - Pro 1
+        - Pro 2
+        - Pro 3
     validations:
       required: true
 
   - type: textarea
     id: cons
     attributes:
-      label: 缺点 / Cons
-      description: 这个服务的缺点
+      label: Cons
+      description: Disadvantages of this service
       placeholder: |
-        - 缺点1
-        - 缺点2
-        - 缺点3
+        - Con 1
+        - Con 2
+        - Con 3
     validations:
       required: true
 
   - type: textarea
     id: recommendation
     attributes:
-      label: 推荐理由 / Recommendation
-      description: 你会推荐给哪类用户？
+      label: Recommendation
+      description: Who would you recommend this to?
       placeholder: |
-        适合: 设计师、学生、重度用户...
-        不适合: 轻度用户、预算有限的用户...
+        Suitable for: Designers, students, power users...
+        Not suitable for: Light users, budget-conscious users...
 
   - type: input
     id: promo-code
     attributes:
-      label: 优惠码 / Promo Code (可选)
-      description: 如果有优惠码请分享
-      placeholder: 例如：SAVE30
+      label: Promo Code (Optional)
+      description: Share a promo code if available
+      placeholder: e.g., SAVE30
 
   - type: checkboxes
     id: terms
     attributes:
-      label: 确认 / Confirmation
-      description: 请确认以下内容
+      label: Confirmation
+      description: Please confirm the following
       options:
-        - label: 我提供的信息真实准确 / The information I provide is true and accurate
+        - label: The information I provide is true and accurate
           required: true
-        - label: 我同意遵守社区行为准则 / I agree to follow the Code of Conduct
+        - label: I agree to follow the Code of Conduct
           required: true
