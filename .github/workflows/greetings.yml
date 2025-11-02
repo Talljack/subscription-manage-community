@@ -1,0 +1,62 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_requests:
+    types: [opened]
+  discussion:
+    types: [created]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      discussions: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🎉 感谢你的第一个 Issue！/ Thank you for your first issue!
+
+            我们很高兴你加入 WhereMyMoney 社区！你的反馈对我们非常重要。
+            We're glad you joined the WhereMyMoney community! Your feedback is very important to us.
+
+            社区成员通常会在 24 小时内回复。同时，你可以：
+            Community members typically respond within 24 hours. Meanwhile, you can:
+
+            - 📖 查看 [快速开始指南](https://github.com/yourusername/subscription-manage-community/blob/main/docs/getting-started.md)
+            - 💬 浏览 [社区讨论](https://github.com/yourusername/subscription-manage-community/discussions)
+            - 📧 有紧急问题？发邮件至 support@wheremymoney.pro
+
+            感谢你的耐心！/ Thank you for your patience!
+
+          pr-message: |
+            👋 感谢你的第一个 Pull Request！/ Thank you for your first pull request!
+
+            我们会尽快审查你的贡献。请确保：
+            We'll review your contribution soon. Please ensure:
+
+            - ✅ 遵循了 [贡献指南](https://github.com/yourusername/subscription-manage-community/blob/main/CONTRIBUTING.md)
+            - ✅ 更新了相关文档（如果需要）
+            - ✅ 测试了你的更改
+
+            再次感谢！/ Thanks again!
+
+          discussion-message: |
+            🙌 感谢你发起讨论！/ Thank you for starting a discussion!
+
+            欢迎来到 WhereMyMoney 社区！我们很高兴看到你的参与。
+            Welcome to the WhereMyMoney community! We're excited to see your participation.
+
+            为了获得更好的回复，建议：
+            For better responses, we recommend:
+
+            - 📝 提供详细信息和背景
+            - 🏷️ 使用合适的标签
+            - 🤝 尊重其他成员的观点
+
+            期待精彩的讨论！/ Looking forward to a great discussion!
